@@ -9,6 +9,23 @@ body {
     
 }
 
+.dropdown {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    left: 72px;
+    top: 40px;
+    font-family: cassandra;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: serif;
+    letter-spacing: 1px;
+}
+
 .no-lines {
     text-decoration: none;
     color: black;

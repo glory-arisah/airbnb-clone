@@ -10,10 +10,19 @@ homePageDropDown.addEventListener('mouseover', () => {
   homePageList.style.display = "block"  
 })
 
-homePageList.addEventListener('mouseover', () => {
+homePageDropDown.addEventListener('mouseover', () => {
     homePageList.style.display = "block"
 })
 
+homePageList.addEventListener('mouseover', () => {
+  homePageList.style.display = "block"
+})
+
 homePageList.addEventListener('mouseout', () => {
+  homePageList.style.display = "none"
+})
+
+
+homePageDropDown.addEventListener('mouseout', () => {
    homePageList.style.display= "none"
 })
