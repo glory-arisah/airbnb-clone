@@ -1,3 +1,5 @@
+
+/*
 window.addEventListener('load', () => {
     homePageList.style.display ="none"
 })
@@ -26,3 +28,5 @@ homePageList.addEventListener('mouseout', () => {
 homePageDropDown.addEventListener('mouseout', () => {
    homePageList.style.display= "none"
 })
+
+*/
